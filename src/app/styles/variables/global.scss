@@ -1,0 +1,19 @@
+:root {
+    // classic Font
+
+    --font-family-main: 'Roboto', sans-serif;
+    --font-size-m: calc(var(--index) * 0.85);
+    --font-m: 400 var(--font-size-m) / 115% var(--font-family-main);
+  
+    // font l
+
+    --font-size-l: var(--index);
+    --font-l: 400 var(--font-size-l) / 115% var(--font-family-main);
+  
+    // Title Font
+
+    --title-font-family: 'Inter', sans-serif;
+    --title-font-size: calc(var(--index) * 2.5);
+    --title-font: 600 var(--title-hero-font-size) / 115% var(--title-font-family);
+  
+  }
